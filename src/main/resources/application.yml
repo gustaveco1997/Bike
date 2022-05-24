@@ -1,0 +1,19 @@
+spring:
+    datasource:
+      url: jdbc:h2:mem:testdb
+      driverClassName: org.h2.Driver
+      username: sa
+      password: password
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+
+#spring:
+#  jpa:
+#      show-sql: true
+#      hibernate:
+#          ddl-auto: update
+#  datasource:
+#      url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/manutencao
+#      username: root
+#      password: 1234
+#      driver-class-name: com.mysql.cj.jdbc.Driver
